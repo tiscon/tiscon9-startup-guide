@@ -37,6 +37,8 @@
 
 ## 2.Gitpodのログイン
 
+※Gitpodの利用にあたり、Google Chromeでの利用を推奨しています
+
 1. 以下にアクセスし、 `Continue with GitHub` を押下します。
    1. https://gitpod.io/login  
 ![Login Gitpod](../image/gitpod_access.png)
