@@ -19,7 +19,7 @@
 
 ## 1.GitHubリポジトリのFork
 
-1. 以下を押下し、インターンシップ向けアプリにアクセスして下さい。  
+1. 以下を押下し、Webアプリケーションにアクセスして下さい。  
    1. https://github.com/tiscon/tiscon9
 1. GitHubの画面右上 `Fork` ボタンを押下します。  
 ![Fork button](../image/git_fork-button.png)
@@ -70,7 +70,7 @@
 2. `New Workspace` を押下します。
 3. 「Repository」欄を開き、手順1-6 でコピーしたURLを入力＆選択します。その後、 `Continue` を押下します。   
 ![Input URL](../image/gitpod_input-url-for-workspace.png)
-1. 電話番号の入力を求められることがあります。その場合はインターンシップ当日に利用可能な電話番号を入力し、`Send Code via SMS` を押下します。  
+1. 電話番号の入力を求められることがあります。その場合はイベント当日に利用可能な電話番号を入力し、`Send Code via SMS` を押下します。  
 ![Register Phone Number](../image/gitpod_register-phone-number.png)
 1. 電話番号を入力した場合は、届いたSMSに記載されている認証コードを入力し、 `Validate Account` を押下します。
 2. 以下のような画面となったら、 `continue` を押下します。  
@@ -131,7 +131,7 @@ Terminalが表示されたら、 `mvn spring-boot:run` と入力し、Enterキ�
 その場合は、手順3「Workspaceの作成」を再度実施していただくことで、再度確認できます。
 
 __※Workspaceの起動時間には50h/monthの制限があります。__  
-__インターンシップ当日に利用できるようにするため、15時間以上残してください。__
+__イベント当日に利用できるようにするため、15時間以上残してください。__
 
 
 「何時間くらい使ったの？」と気になる方は、 `Workspace一覧>画面左上のアカウントアイコン > Billing` から残り利用可能時間が確認できます。（10Creditsで1時間利用できます）
