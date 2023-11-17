@@ -4,8 +4,8 @@
 
 - [動作確認](#動作確認)
   - [構成図](#構成図)
-  - [1.GitHubリポジトリのFork](#1githubリポジトリのfork)
-  - [2.Gitpodのログイン](#2gitpodのログイン)
+  - [1.Gitpodのログイン](#1gitpodのログイン)
+  - [2.GitHubリポジトリのFork](#2githubリポジトリのfork)
   - [3.Workspaceの作成](#3workspaceの作成)
   - [4.Webアプリケーションの起動確認](#4webアプリケーションの起動確認)
   - [5.Webアプリケーションの終了](#5webアプリケーションの終了)
@@ -17,7 +17,37 @@
 
 ![](../image/diagram.png)
 
-## 1.GitHubリポジトリのFork
+## 1.Gitpodのログイン
+
+以降の作業は[Google Chrome](https://www.google.com/intl/ja/chrome/gsem/download/?brand=YTUH&gclid=EAIaIQobChMI4fnFyaPKggMV9dAWBR1dLA90EAAYASAAEgLaUfD_BwE&gclsrc=aw.ds)で実施してください
+
+1. 以下にアクセスし、 `Continue with GitHub` を押下します。
+   1. https://gitpod.io/login  
+![Login Gitpod](../image/gitpod_access.png)
+1. GitHubへのログインやアクセス権の付与を求められた場合は、従ってください。
+   
+   ![Authorize gitpod.io](../image/gitpod_authorize-gitpodio.png)
+   <br/>
+   <br/>
+   <br/>
+2. 氏名を入力し、`Continue with 10 hours per month`をクリックします
+   
+   ![Gitpodログイン画面](../image/gitpod_login1.png)
+
+3. エディターの選択画面が出るので、 editorは変更せず`Continue` を押下します。
+   
+   ![エディタ選択画面](../image/gitpod_login2.png)
+
+4. 各項目を選択して`Continue`を押下します。
+   
+   ![情報入力](../image/gitpod_login3.png)
+
+5. 自分のWorkspace画面が確認できれば登録完了となります
+
+   ![Workspace](../image/gitpod_workspace.png)
+
+
+## 2.GitHubリポジトリのFork
 
 1. 以下を押下し、Webアプリケーションにアクセスして下さい。  
    1. https://github.com/tiscon/tiscon9
@@ -35,40 +65,12 @@
 1. 図のクリックボードアイコンを押下し、URLをコピーします。  
 ![Copy url](../image/git_copy-url.png)
 
-## 2.Gitpodのログイン
-
-※Gitpodの利用にあたり、Google Chromeでの利用を推奨しています
-
-1. 以下にアクセスし、 `Continue with GitHub` を押下します。
-   1. https://gitpod.io/login  
-![Login Gitpod](../image/gitpod_access.png)
-2. GitHubへのログインやアクセス権の付与を求められた場合は、従ってください。
-   
-   ![Authorize gitpod.io](../image/gitpod_authorize-gitpodio.png)
-   <br/>
-   <br/>
-   <br/>
-3. 氏名を入力し、`Continue with 10 hours per month`をクリックします
-   
-   ![Gitpodログイン画面](../image/gitpod_login1.png)
-
-4. エディターの選択画面が出るので、 editorは変更せず`Continue` を押下します。
-   
-   ![エディタ選択画面](../image/gitpod_login2.png)
-
-5. 各項目を選択して`Continue`を押下します。
-   
-   ![情報入力](../image/gitpod_login3.png)
-
-6. 自分のWorkspace画面が確認できれば登録完了となります
-
-   ![Workspace](../image/gitpod_workspace.png)
 
 ## 3.Workspaceの作成
 
 1. 「Workspaces」画面に遷移します。 
 2. `New Workspace` を押下します。
-3. 「Repository」欄を開き、手順1-6 でコピーしたURLを入力＆選択します。その後、 `Continue` を押下します。   
+3. 「Repository」欄を開き、手順2-6 でコピーしたURLを入力＆選択します。その後、 `Continue` を押下します。   
 ![Input URL](../image/gitpod_input-url-for-workspace.png)
 1. 電話番号の入力を求められることがあります。その場合はイベント当日に利用可能な電話番号を入力し、`Send Code via SMS` を押下します。  
 ![Register Phone Number](../image/gitpod_register-phone-number.png)
