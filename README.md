@@ -23,7 +23,7 @@
 
 ### Zoom
 
-リモート開催のため、web会議ツールの「Zoom」を利用します。
+web会議ツールの「Zoom」を利用します。
 
 - [Zoomのインストール](content/installZoom.md)
 
